@@ -1,13 +1,16 @@
 const verdadeira = true;
 let nome = 'Denis'
-let nome2 = 'Iara'
+const nome2 = 'Iara'
+
+const nom = 'Disney' // Variável Redeclarada
 
 if (verdadeira) {
-    let nome = 'Maria'
+    let nome = 'Maria' // Escopo em Bloco
     console.log(nome, nome2);
 
     if (verdadeira) {
-        console.log('OK')
+    let nome = 'Fernando' // Escopo em Bloco
+    console.log(nome, nome2);
     }
 }
 
