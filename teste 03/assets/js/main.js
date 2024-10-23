@@ -12,6 +12,6 @@ for (let i = 0; i < elementos.length; i++) {
 
   const novoConteudo = document.createElement(tag);
 
-  novoConteudo.innerHTML = texto;
+  novoConteudo.innerText = texto;
   conteudo.appendChild(novoConteudo);
 }
